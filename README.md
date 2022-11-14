@@ -57,7 +57,7 @@ export const INITIAL_STATE = {
   <img src="./snapshot-words.png" />
 </p>
 
-The following method returns an array of unique randomly seleclted letters, where length is the game complexity:
+The following helper method returns an array of unique random letters, where length is the game complexity:
 ```ts
   private getRandomLettersArrayOf(length: number): string[] {
     let result: string[] = [];
@@ -70,7 +70,7 @@ The following method returns an array of unique randomly seleclted letters, wher
   }
 ```
 #### `HistoryComponent`
-This component shows the state logs. A color directive is applied on each log to change its background color to red/green based on the result.
+This component shows the state `logs`. A color directive is applied on each log to change its background color to red/green based on the result.
 <p align="center">
   <img src="./snapshot-history.png" />
 </p>
